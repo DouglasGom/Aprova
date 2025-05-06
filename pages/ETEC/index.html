@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="../../../assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script defer src="./script.js"></script>
+    <title>Aprova Cursinho ETEC - Presencial</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#">
+          <img
+            id="mainLogo"
+            src="../../../assets/logo.png"
+            alt="Aprova Cursinho Logo"
+          />
+        </a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#container">Quem Somos</a></li>
+        <li class="link"><a href="#prices">Cursos</a></li>
+        <li class="link"><a href="#approved-section">Painel dos Aprovados</a></li>
+        <li class="link"><a href="#faq">Dúvidas</a></li>
+        <li class="link">
+          <a href="#footer">Fale Conosco</a>
+        </li>
+        <li class="link">
+          <a href="#prices" class="nav__btn">Inscreva-se</a>
+        </li>
+
+        <div class="top__buttons">
+          <button id="increaseFont" title="Aumentar fonte">A+</button>
+          <button id="decreaseFont" title="Diminuir fonte">A-</button>
+          <li class="link">
+            <a href="../../../pages/Login/index.html">Área do Aluno</a>
+          </li>
+          <li class="link"><a href="#">Fatec</a></li>
+        <li class="link"><a href="../../../pages/ETEC/index.html">Etec</a></li>
+          
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Navbar Mobile -->
+    <nav class="mobile__nav">
+      <div class="mobile__nav__logo">
+        <a href="#">
+          <img src="../../../assets/logo.png" alt="Logo Aprova" />
+        </a>
+      </div>
+      <div class="mobile__menu__toggle" id="mobileMenuToggle">
+        <i id="menuIcon" class="bx bx-menu"></i>
+      </div>
+      <ul class="mobile__nav__links" id="mobileNavLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#container">Quem Somos</a></li>
+        <li><a href="#prices">Cursos</a></li>
+        <li><a href="#approved-section">Painel dos Aprovados</a></li>
+        <li><a href="#prices">Dúvidas</a></li>
+        <li><a href="#">Fatec</a></li>
+        <li><a href="./pages/ETEC/index.html">Etec</a></li>
+        <li><a href="./pages/Login/index.html">Área do Aluno</a></li>
+        <li><a href="#footer">Fale Conosco</a></li>
+        <li ><a class="button__mobile" href="#prices">Inscreva-se</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="content__container">
+          <h1>
+            <span class="heading__1">
+              <span class="green_title">APROVA</span> CURSINHO<br />
+            </span>
+            Seu filho preparado<br />
+            <span class="heading__2">
+              Para o Vestibulinho da <span class="green_subtitle">ETEC</span>
+            </span>
+          </h1>
+      
+          <p>Estude com professores da ETEC e conquiste sua vaga.</p>
+        </div>
+      
+        <div class="image__container">
+          <img src="../../../assets/header-1.png" alt="header" />
+          <img src="../../../assets/header-2.png" alt="header" />
+          <div class="image__content">
+            <ul>
+              <li>Estude com quem conhece o Vestibulinho</li>
+              <li>Método exclusivo e professores experientes</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="about__section" id="container">
+      <div class="about__container">
+        <div class="about__text">
+          <h2>Seu filho em uma ETEC</h2>
+          <p>
+            A escolha da escola certa no Ensino Médio faz toda a diferença no
+            futuro acadêmico e profissional do seu filho. As ETECs oferecem
+            ensino gratuito e de qualidade, preparando os alunos tanto para o
+            mercado de trabalho quanto para o ingresso em faculdades renomadas.
+          </p>
+          <h3>Por que escolher a ETEC?</h3>
+        </div>
+        <div class="cards-list">
+          <div class="card 1">
+            <div class="card_image">
+              <img src="../../../assets/about1.png" />
+            </div>
+            <div class="card_title title-white">
+              <p>Ensino médio técnico de excelência, sem mensalidade</p>
+            </div>
+          </div>
+
+          <div class="card 2">
+            <div class="card_image">
+              <img src="../../.././assets/about2.png" />
+            </div>
+            <div class="card_title title-white">
+              <p>Altas taxas de empregabilidade e oportunidades</p>
+            </div>
+          </div>
+
+          <div class="card 3">
+            <div class="card_image">
+              <img src="../../../assets/about3.png" />
+            </div>
+            <div class="card_title title-white">
+              <p>Formação prática e teórica alinhada às demandas atuais</p>
+            </div>
+          </div>
+
+          <div class="card 4">
+            <div class="card_image">
+              <img src="../../../assets/about4.png" />
+            </div>
+            <div class="card_title title-white">
+              <p>Infraestrutura moderna e professores qualificados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_us" id="about_us">
+      <img
+        src="../../../assets//logob.png"
+        alt="Logo Aprova Cursinho"
+        class="about_us_logo"
+      />
+      <div class="about_us__container">
+        <h2>Sobre nós</h2>
+        <p>
+          <b>Seu filho está preparado para o Vestibulinho da ETEC?</b> A
+          concorrência é grande! Em algumas turmas, são mais de 25 candidatos
+          por vaga. Para garantir um bom resultado, não basta apenas estudar por
+          conta própria – é preciso uma preparação direcionada e estratégica.
+        </p>
+
+        <p>
+          <b>Por que escolher o Aprova ETEC?</b> Nosso curso é voltado para
+          alunos a partir do 8º ano do Ensino Fundamental que querem ingressar
+          no Ensino Médio Técnico da ETEC, além de estudantes do Ensino Médio
+          que desejam fazer um curso técnico profissionalizante.
+        </p>
+        <p>
+          Aqui, a preparação é feita com um método exclusivo, desenvolvido por
+          quem realmente entende do Vestibulinho.
+        </p>
+        <div class="about_us_button">
+          <p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5511994646288&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+              class="whatsapp-link"
+              >ABRIR WHATSAPP</a
+            >
+          </p>
+        </div>
+
+        <p class="aprovacao-frase" style="text-align: center">
+          Aprova ETEC – A preparação que faz a diferença!
+        </p>
+      </div>
+    </section>
+
+    <section id="approved-section" class="approved-section">
+      <h2>Conheça quem já entrou na ETEC!</h2>
+      <div class="approved-cards-container">
+        <div class="approved-card">
+          <div class="quote-box">
+            <p>
+              " A Etec tem muitas oportunidades, principalmente proporcionadas pelos professores. É excelente pra quem pensa em se profissionalizar em alguma área"
+            </p>
+          </div>
+          <div class="student-info">
+            <div class="student-avatar"></div>
+            <div class="student-details">
+              <p class="student-name">Fulano de Tal 1</p>
+              <p class="student-etec">DS na ETEC de Taboão da Serra</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="approved-card">
+          <div class="quote-box">
+            <p>
+              "A Etec é uma escola diferente, com eventos e oportunidades que me ajudaram a entrar no mercado de trabalho."                                         
+            </p>
+          </div>
+          <div class="student-info">
+            <div class="student-avatar"><img src="../../assets/erika.jpg" alt="" srcset=""></div>
+            <div class="student-details">
+              <p class="student-name">Fulano de Tal 2</p>
+              <p class="student-etec">DS na ETEC de Taboão da Serra</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="approved-card">
+          <div class="quote-box">
+            <p>
+              " O cursinho Aprova foi essencial no meu processo de aprovação na
+              ETEC."
+            </p>
+          </div>
+          <div class="student-info">
+            <div class="student-avatar"></div>
+            <div class="student-details">
+              <p class="student-name">Fulano de Tal 4</p>
+              <p class="student-etec">DS na ETEC de Taboão da Serra</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="approved-card">
+          <div class="quote-box">
+            <p>
+              " O cursinho Aprova foi essencial no meu processo de aprovação na
+              ETEC."
+            </p>
+          </div>
+          <div class="student-info">
+            <div class="student-avatar"></div>
+            <div class="student-details">
+              <p class="student-name">Fulano de Tal 5</p>
+              <p class="student-etec">DS na ETEC de Taboão da Serra</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="approved-card">
+          <div class="quote-box">
+            <p>
+              " O cursinho Aprova foi essencial no meu processo de aprovação na
+              ETEC."
+            </p>
+          </div>
+          <div class="student-info">
+            <div class="student-avatar"></div>
+            <div class="student-details">
+              <p class="student-name">Fulano de Tal 6</p>
+              <p class="student-etec">DS na ETEC de Taboão da Serra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="prev-button"><</button>
+        <button class="next-button">></button>
+      </div>
+    </section>
+
+    <section class="prices" id="prices">
+      <div class="prices__container">
+        <h2>
+          Tenha acesso a uma preparação completa para o<br />vestibulinho da
+          ETEC!
+        </h2>
+        <p class="prices__subtitle">Estude com quem entende de aprovação.</p>
+        <div class="prices__cards">
+          <div class="price__card">
+            <h3>MODALIDADE ONLINE</h3>
+            <p class="price__card-title">
+              <span class="price_span">Extensivo Tarde</span>
+            </p>
+            <ul class="price__card-list">
+              <li>
+                ✅ Aulas com professores da própria ETEC – eles sabem exatamente
+                o que cai na prova!
+              </li>
+              <li>
+                ✅Plataforma online completa – aulas ao vivo, exercícios, provas
+                anteriores e conteúdos gravados.
+              </li>
+              <li>
+                ✅ 750 horas de estudo direcionado – um plano estruturado para
+                potencializar o aprendizado.
+              </li>
+              <li>
+                📅 Aulas de segunda a sexta. Primeira turma inicia em 17/03.
+              </li>
+            </ul>
+            <a href="../../../pages/Sobre/Online/index.html" class="btn price__button"
+              >SAIBA MAIS</a
+            >
+          </div>
+
+          <div class="price__card">
+            <h3>MODALIDADE PRESENCIAL</h3>
+            <p class="price__card-title">
+              <span class="price_span">Sábado</span>
+            </p>
+            <ul class="price__card-list">
+              <li>✅ Aulas presenciais com professores da própria ETEC</li>
+              <li>
+                ✅ Preparatório presencial com simulados, exercícios e foco nos
+                conteúdos.
+              </li>
+              <li>
+                ✅ 150 horas de estudo direcionado - um plano estruturado para
+                potencializar o aprendizado.
+              </li>
+              <li>
+                ✅ Seguro aprovação - se não passar, pode refazer o curso.
+              </li>
+              <li>✅ Aulas aos sábados. Primeira turma inicia em 22/03.</li>
+            </ul>
+            <a
+              href="../../../pages/Sobre/Presencial/index.html"
+              class="btn price__button"
+              >SAIBA MAIS</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="course__button__container">
+            <a href="#" class="course__button">Concursos de Bolsas</a>
+        </div> -->
+    </section>
+
+    <section id="faq" class="faq-section">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            Quando se inscrever para a Etec 2025?
+            <span class="arrow-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              As inscrições para o vestibulinho iniciam em -- --. Comece a se
+              preparar agora mesmo com o Aprova Etec.
+              <a
+                style="text-decoration: none; color: var(--primary-color-dark)"
+                href="#prices"
+                >Saiba mais</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Qual a duração do curso?
+            <span class="arrow-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Aproximadamente 8 meses.
+              <a
+                style="text-decoration: none; color: var(--primary-color-dark)"
+                href="#prices"
+                >Saiba mais</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Quantos pontos são necessários para passar?
+            <span class="arrow-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A pontuação mínima para passar no vestibulinho da Etec 2025 varia
+              de acordo com o curso e a unidade, mas geralmente se situa entre
+              32 e 40 acertos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer__container">
+      <div class="footer">
+        <img src="../../../assets/Whatsapp.png" alt="whats" />
+        <p>Atendimento Online</p>
+        <a href="https://api.whatsapp.com/send?phone=5511994646288&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="btn">Abrir WhatsApp</a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="f-item-con">
+        <div class="app-info">
+          <span class="app-name">
+            <img src="../../../assets/logob.png" alt="Aprova Cursinho Logo" />
+          </span>
+          <p>
+            Com enfoque em aprovação para Escolas Técnicas, o Aprova Cursinho é
+            o ideal para alunos de 9° ano e ensino médio.
+          </p>
+        </div>
+
+        <div class="useful-links">
+          <div class="footer-title">Links Úteis</div>
+          <ul>
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#container">Quem Somos</a></li>
+            <li class="link"><a href="#prices">Cursos</a></li>
+            <li class="link"><a href="#approved-section">Painel dos Aprovados</a></li>
+            <li class="link"><a href="#faq">Dúvidas</a></li>
+            <li class="link">
+              <a href="#footer">Fale Conosco</a>
+            </li>
+            <li class="link">
+              <a href="#prices">Inscreva-se</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="g-i-t">
+          <div class="footer-title">Fale Conosco</div>
+          <form
+            action="https://formspree.io/f/xvgazbbd"
+            method="post"
+            class="footer-form"
+          >
+            <input
+              type="text"
+              name="g-name"
+              class="g-inp"
+              id="g-name"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="email"
+              name="g-email"
+              class="g-inp"
+              id="g-email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="g-msg"
+              class="g-inp"
+              id="g-msg"
+              placeholder="Sua mensagem..."
+              required
+            ></textarea>
+            <button type="submit" class="f-btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="cr-con">
+        Copyright © 2025 | Aprova Cursinho. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const faqQuestions = document.querySelectorAll(".faq-question");
+
+        faqQuestions.forEach((question) => {
+          question.addEventListener("click", function () {
+            const answer = this.nextElementSibling;
+            const arrow = this.querySelector(".arrow-icon");
+
+            if (answer.style.maxHeight) {
+              answer.style.maxHeight = null;
+              arrow.textContent = "▼";
+            } else {
+              answer.style.maxHeight = answer.scrollHeight + "px";
+              arrow.textContent = "▲";
+            }
+          });
+        });
+      });
+</script>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  </body>
+</html>

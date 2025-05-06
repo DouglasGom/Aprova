@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="../../../assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Aprova Cursinho ETEC - Online</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="../../../index.html#home">
+          <img
+            id="mainLogo"
+            src="../../../assets/logo.png"
+            alt="Aprova Cursinho Logo"
+          />
+        </a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="../../../index.html#home">Home</a></li>
+        <li class="link"><a href="../../../index.html#container">Quem Somos</a></li>
+        <li class="link"><a href="../../../index.html#prices">Cursos</a></li>
+        <li class="link"><a href="../../../index.html#approved-section">Painel dos Aprovados</a></li>
+        <li class="link"><a href="../../../index.html#faq">Dúvidas</a></li>
+        <li class="link">
+          <a href="../../../index.html#footer">Fale Conosco</a>
+        </li>
+        <li class="link">
+          <a href="../../../index.html#prices" class="nav__btn">Inscreva-se</a>
+        </li>
+
+        <div class="top__buttons">
+          <button id="increaseFont" title="Aumentar fonte">A+</button>
+          <button id="decreaseFont" title="Diminuir fonte">A-</button>
+          <li class="link">
+            <a href="./pages/Login/index.html">Área do Aluno</a>
+          </li>
+          <li class="link"><a href="#">Fatec</a></li>
+        <li class="link"><a href="./pages/ETEC/index.html">Etec</a></li>
+          
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Navbar Mobile -->
+    <nav class="mobile__nav">
+      <div class="mobile__nav__logo">
+        <a href="../../../index.html#home">
+          <img src="../../../assets/logo.png" alt="Logo Aprova" />
+        </a>
+      </div>
+      <div class="mobile__menu__toggle" id="mobileMenuToggle">
+        <i id="menuIcon" class="bx bx-menu"></i>
+      </div>
+      <ul class="mobile__nav__links" id="mobileNavLinks">
+        <li><a href="../../../index.html#home">Home</a></li>
+        <li><a href="../../../index.html#container">Quem Somos</a></li>
+        <li><a href="../../../index.html#prices">Cursos</a></li>
+        <li><a href="../../../index.html#approved-section">Painel dos Aprovados</a></li>
+        <li><a href="../../../index.html#prices">Dúvidas</a></li>
+        <li><a href="#">Fatec</a></li>
+        <li><a href="./pages/ETEC/index.html">Etec</a></li>
+        <li><a href="./pages/Login/index.html">Área do Aluno</a></li>
+        <li><a href="../../../index.html#footer">Fale Conosco</a></li>
+        <li ><a class="button__mobile" href="../../../index.html#prices">Inscreva-se</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="course-info">
+        <h2>Modalidade Online - Preparatório Vestibulinho ETEC</h2>
+        <div class="course-details">
+          <div class="detail-card">
+            <span>Programação</span><br />
+            <strong>17/03 a 28/11</strong>
+          </div>
+          <div class="detail-card">
+            <span>Carga Horária</span><br />
+            <strong>750h</strong>
+          </div>
+          <div class="detail-card" style="border: none">
+            <span>Modalidade</span><br />
+            <strong>Online</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="programacao-section">
+        <h2 class="programacao-title">
+          Programação - Extensivo tarde ONLINE
+          <span class="programacao-data">17/03 a 28/11</span>
+        </h2>
+
+        <div class="programacao-horarios">
+          <div class="horario-box">
+            <div class="horario-data">17/03</div>
+            <div class="horario-tempo">14:00h - 18:15</div>
+            <div class="horario-dia">segunda-feira</div>
+          </div>
+          <div class="horario-box">
+            <div class="horario-data">28/11</div>
+            <div class="horario-tempo">14:00h - 18:15</div>
+            <div class="horario-dia">sexta-feira</div>
+          </div>
+        </div>
+
+        <div class="subscribe">
+          <p class="inscricoes-abertas">
+            Inscrições abertas até <strong>31/05/2025</strong>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=5511994646288&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="comece-agora-btn">COMECE AGORA</a>
+        </div>
+      </section>
+
+      <section class="about_us" id="about_us">
+        <img
+          src="../../../assets/logob.png"
+          alt="Logo Aprova Cursinho"
+          class="about_us_logo"
+        />
+        <div class="about_us__container">
+          <h2>Mais informações</h2>
+          <h3>Objetivos</h3>
+
+          <p>
+            🎯Nosso foco é a aprovação dos alunos no Vestibulinho ETEC,
+            garantindo que estejam totalmente preparados para ingressar no
+            Ensino Médio Integrado ao Técnico ou em um Curso Técnico
+            Profissionalizante.
+          </p>
+          <h3>Metodologia</h3>
+          <p>
+            📚 Aulas com professores especialistas e atuantes na ETEC, resolução
+            intensiva de exercícios e acompanhamento pedagógico individualizado.
+            Com um método direcionado, nossos alunos conquistam as melhores
+            notas e garantem a vaga dos sonhos!
+          </p>
+          <h3>Público-alvo</h3>
+          <p>
+            📌 Alunos a partir do 8º ano do Ensino Fundamental que desejam
+            estudar na ETEC.
+          </p>
+          <h3>Requisitos</h3>
+          <p>
+            ✅ Se deseja ingressar no Ensino Médio Integrado ao Técnico, o ideal
+            é iniciar a preparação a partir do 8º ano.Para quem quer um Curso
+            Técnico Profissionalizante, a preparação pode começar já no Ensino
+            Médio.
+          </p>
+          <div class="about_us_button">
+            <p>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511994646288&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+                class="whatsapp-link"
+                >INSCREVA-SE</a
+              >
+            </p>
+          </div>
+
+          <p class="aprovacao-frase" style="text-align: center">
+            Aprova ETEC – A preparação que faz a diferença!
+          </p>
+        </div>
+      </section>
+
+      <section class="professores-section">
+        <h2 class="professores-title">
+          Estude com quem entende de Vestibulinho!<br />Conheça nosso time de
+          professores!
+        </h2>
+
+        <div class="professores-grid">
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/originals/2e/7a/06/2e7a0610b6160d93194b3437754876ca.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>Marcello Zollo</h2>
+              <h3>FÍSICA</h3>
+              <p>Graduado em Física pela USP, professor efetivo há 21 anos na rede estadual de ensino de São Paulo e há 15 anos na ETEC.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/originals/2e/7a/06/2e7a0610b6160d93194b3437754876ca.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>Erica Gianastacio</h2>
+              <h3>BIOLOGIA</h3>
+              <p>Professora experiente em Biologia, Ciências, Pedagogia e Psicopedagogia, com 17 anos no ensino público e 13 em cursinhos pré-vestibular/vestibulinho em Indaiatuba, onde também coordena.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/originals/2e/7a/06/2e7a0610b6160d93194b3437754876ca.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>Thassia Francyne</h2>
+              <h3>LÍNGUA PORTUGUESA</h3>
+              <p>Professora de Língua Portuguesa e Redação com 13 anos de experiência, múltiplas graduações e pós-graduações, atuando de forma criativa e focada em resultados, inclusive com alunos estrangeiros e produção textual.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/originals/2e/7a/06/2e7a0610b6160d93194b3437754876ca.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>André Lopes Loula</h2>
+              <h3>HISTÓRIA</h3>
+              <p>Mestre em História Social pela PUC-SP, possui 27 anos de experiência no magistério, sendo 18 anos como professor nas ETECs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section">
+        <h2>Conteúdo Programático</h2>
+      
+        <!-- Botões de matérias -->
+        <div class="faq-tabs">
+          <button class="faq-tab active" data-materia="portugues">Português</button>
+          <button class="faq-tab" data-materia="biologia">Biologia</button>
+          <button class="faq-tab" data-materia="historia">História</button>
+          <button class="faq-tab" data-materia="geografia">Geografia</button>
+          <button class="faq-tab" data-materia="fisica">Física</button>
+          <button class="faq-tab" data-materia="quimica">Química</button>
+        </div>
+      
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              Conteúdo de <span id="materia-title">Português</span>
+              <span class="arrow-icon">▼</span>
+            </button>
+            <div class="faq-answer" style="max-height: 1000px;">
+                <div id="materia-content">
+                    <ul>
+                        <li>Estudo da narrativa em diferentes gêneros</li>
+                        <li>Discurso artístico: diferentes formas de representação</li>
+                        <li>Acentuação e Pontuação</li>
+                        <li>Pronomes</li>
+                        <li>Tempos e modos verbais</li>
+                        <li>Discurso direto e indireto</li>
+                        <li>Figuras de linguagem</li>
+                        <li>Adjetivos e locuções adjetivas</li>
+                        <li>Advérbio e locuções adverbiais</li>
+                        <li>Variedades linguísticas</li>
+                        <li>Linguagem conotativa e denotativa</li>
+                        <li>Gênero textual: notícia</li>
+                        <li>Sujeito e predicado</li>
+                        <li>Vozes verbais</li>
+                        <li>Discurso da esfera da publicidade: diferentes formas de representação</li>
+                        <li>Complementos da oração (objeto direto e indireto, agente da passiva, complemento nominal)</li>
+                        <li>Concordância verbal e nominal + Regência verbal e nominal</li>
+                        <li>Funções acessórias: adjunto adnominal, aposto, adjunto adverbial, vocativo</li>
+                        <li>Traços característicos de textos argumentativos</li>
+                        <li>Crase</li>
+                        <li>Preposição</li>
+                        <li>Conectivos</li>
+                        <li>Interferência</li>
+                        <li>Conjunção</li>
+                        <li>Período composto</li>
+                        <li>Interpretação de textos</li>
+                      </ul>
+                      
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </section>
+      
+      
+    </main>
+
+    <section class="footer__container">
+      <div class="footer">
+        <img src="../../../assets/Whatsapp.png" alt="whats" />
+        <p>Atendimento Online</p>
+        <a href="https://w.app/link_teste" class="btn">Abrir WhatsApp</a>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="f-item-con">
+        <div class="app-info">
+          <span class="app-name">
+            <img src="../../../assets/logob.png" alt="Aprova Cursinho Logo" />
+          </span>
+          <p>
+            Com enfoque em aprovação para Escolas Técnicas, o Aprova Cursinho é
+            o ideal para alunos de 9° ano e ensino médio.
+          </p>
+        </div>
+
+        <div class="useful-links">
+          <div class="footer-title">Links Úteis</div>
+          <ul>
+            <li class="link"><a href="../../../index.html#home">Home</a></li>
+        <li class="link"><a href="../../../index.html#container">Quem Somos</a></li>
+        <li class="link"><a href="../../../index.html#prices">Cursos</a></li>
+        <li class="link"><a href="../../../index.html#approved-section">Painel dos Aprovados</a></li>
+        <li class="link"><a href="../../../index.html#faq">Dúvidas</a></li>
+        <li class="link">
+          <a href="../../../index.html#footer">Fale Conosco</a>
+        </li>
+        <li class="link">
+          <a href="../../../index.html#prices">Inscreva-se</a>
+        </li>
+          </ul>
+        </div>
+
+        <div class="g-i-t">
+          <div class="footer-title">Fale Conosco</div>
+          <form
+            action="https://formspree.io/f/xvgazbbd"
+            method="post"
+            class="footer-form"
+          >
+            <input
+              type="text"
+              name="g-name"
+              class="g-inp"
+              id="g-name"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="email"
+              name="g-email"
+              class="g-inp"
+              id="g-email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="g-msg"
+              class="g-inp"
+              id="g-msg"
+              placeholder="Sua mensagem..."
+              required
+            ></textarea>
+            <button type="submit" class="f-btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="cr-con">
+        Copyright © 2025 | Aprova Cursinho. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
