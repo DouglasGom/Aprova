@@ -97,6 +97,8 @@
     color: var(--dark-mode-text-color);
   }
 
+
+
   nav.dark-mode .nav__btn {
     color: var(--dark-mode-text-color) !important;
     background-color: var(--primary-color-dark);
@@ -179,9 +181,6 @@
   }
 
 
-  section[id], footer[id] {
-    scroll-margin-top: 135px; /* Levemente maior que a navbar para dar espaçamento visual */
-  }
 /* Oculta a navbar padrão em telas pequenas */
 @media (max-width: 768px) {
   nav {
@@ -260,19 +259,12 @@
     transition: .5s;
   }
 }
-
   /* Esconde a mobile nav em telas grandes */
   @media (min-width: 769px) {
     .mobile__nav {
       display: none;
     }
   }
-
-.nav__links .active-link,
-.mobile__nav__links .active-link {
-  color: var(--primary-color-hover); /* ou qualquer outra cor desejada */
-  border-bottom: 2px solid var(--primary-color-hover);
-}
 
 
 /* Estilos de Botões Genéricos */
@@ -288,6 +280,7 @@
 .btn:hover {
   background-color: var(--primary-color-dark);
 }
+
 
 .hero {
   width: 100%;
