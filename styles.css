@@ -148,10 +148,11 @@
   }
 
   /* Navbar Fixa */
-  nav.sticky {
+nav.sticky {
     position: fixed;
     top: 0;
     left: 0;
+    max-width: 100%;
     width: 100%;
     height: 110px;
     background-color: var(--white); 
@@ -159,6 +160,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
   }
+
 
   nav.top__buttons .sticky {
     margin-bottom: 20px;
