@@ -13,7 +13,7 @@
     --white: #ffffff;
     --light-white: rgba(255, 255, 255, 0.67);
     --black: #000000;
-    --max-width: 1550px;
+    --max-width: 100%;
     --max-width-container: 1250px;
   }
 
